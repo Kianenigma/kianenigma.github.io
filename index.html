@@ -1,0 +1,573 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kianenigma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars2.githubusercontent.com/u/5588131?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars2.githubusercontent.com/u/5588131?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Kian Paimani</span><a href="https://github.com/kianenigma">@kianenigma</a></div>
+      <div id="userbio" style="display: block;">Sir Developer @paritytech.
+
+Parallel and Distributed Systems Msc. Student at Vrije Universiteit Amsterdam.</div>
+      <div id="about">
+                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; @paritytech </span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://medium.com/@kianenigma">https://medium.com/@kianenigma</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Amsterdam/Berlin</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:block;"><a href="https://www.twitter.com/kianenigma" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:block;"><a href="https://www.linkedin.com/in/kian-peymani-30982b102/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:block;"><a href="https://www.medium.com/@kianenigma/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/paritytech/schnorrkel-js" target="_blank">
+                        <section>
+                            <div class="section_title">schnorrkel-js</div>
+                            <div class="about_section">
+                            <span style="display:block;">a Javascript wrapper for schnorrkel signatures on Ristretto using WebAssembly.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Rust</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 13</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 5</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/offline-phragmen" target="_blank">
+                        <section>
+                            <div class="section_title">offline-phragmen</div>
+                            <div class="about_section">
+                            <span style="display:block;">Scrapes the current validator/nominator candidates and predict the result.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Rust</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 10</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/HMM-Persian-OCR" target="_blank">
+                        <section>
+                            <div class="section_title">HMM-Persian-OCR</div>
+                            <div class="about_section">
+                            <span style="display:block;">Hidden Markov Model Based Persian OCR </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 8</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/abrio-cli" target="_blank">
+                        <section>
+                            <div class="section_title">abrio-cli</div>
+                            <div class="about_section">
+                            <span style="display:block;">Abrio cli helps you get started with creating a abrio component, and deploying it. </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/node-xyz/xyz-core" target="_blank">
+                        <section>
+                            <div class="section_title">xyz-core</div>
+                            <div class="about_section">
+                            <span style="display:block;">Microservice Microframework fo Node</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/ptop" target="_blank">
+                        <section>
+                            <div class="section_title">ptop</div>
+                            <div class="about_section">
+                            <span style="display:block;">PTop: a `top`-like tool for [**P**olkadot](polkadot.network)</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jonastheis/das" target="_blank">
+                        <section>
+                            <div class="section_title">das</div>
+                            <div class="about_section">
+                            <span style="display:block;">The Dragons Arena System - Distributed Simulation of a Virtual Gaming World</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/meltdown-spectre" target="_blank">
+                        <section>
+                            <div class="section_title">meltdown-spectre</div>
+                            <div class="about_section">
+                            <span style="display:block;">Proof of Concept implementation + Brief Tutorial of the Meltdown and Spectre attacks [+ Flush/Realod]</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/pmms-heat-dissipation" target="_blank">
+                        <section>
+                            <div class="section_title">pmms-heat-dissipation</div>
+                            <div class="about_section">
+                            <span style="display:block;">A set of assignments with comprehensive documentation to demonstrate multiple approaches to parallel programming in multi-core and many-core systems</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/Scheduling-Simulator" target="_blank">
+                        <section>
+                            <div class="section_title">Scheduling-Simulator</div>
+                            <div class="about_section">
+                            <span style="display:block;">An html based simulator showing LIFO - FIFO - SJF and RR Algorithms </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/c-interpreter" target="_blank">
+                        <section>
+                            <div class="section_title">c-interpreter</div>
+                            <div class="about_section">
+                            <span style="display:block;">Minimal Interpreter (--like) environment for C written in Rust.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Rust</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/DeepConvFarsiOCR" target="_blank">
+                        <section>
+                            <div class="section_title">DeepConvFarsiOCR</div>
+                            <div class="about_section">
+                            <span style="display:block;">A Deep Convolutional Approach Toward Farsi Character Recognition. Used for both machine printed and handwritten datasets</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Lua</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/lazyprogrammersguidtoangular1x" target="_blank">
+                        <section>
+                            <div class="section_title">lazyprogrammersguidtoangular1x</div>
+                            <div class="about_section">
+                            <span style="display:block;">An efficient, yet comprehensive guide. pdf and online version available in leanpub</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/PySideForBeginners-PyCon2016" target="_blank">
+                        <section>
+                            <div class="section_title">PySideForBeginners-PyCon2016</div>
+                            <div class="about_section">
+                            <span style="display:block;">Iran PyCon 2016 - PySide Worksop</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/Semaphore-Simulator" target="_blank">
+                        <section>
+                            <div class="section_title">Semaphore-Simulator</div>
+                            <div class="about_section">
+                            <span style="display:block;">Semaphore simulation . Operation Systems Course Project </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Longi94/wdps1706" target="_blank">
+                        <section>
+                            <div class="section_title">wdps1706</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/node-xyz/xyz-cli" target="_blank">
+                        <section>
+                            <div class="section_title">xyz-cli</div>
+                            <div class="about_section">
+                            <span style="display:block;">Command line Interface for Node-xyz</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/AliKarimi74/darakht" target="_blank">
+                        <section>
+                            <div class="section_title">darakht</div>
+                            <div class="about_section">
+                            <span style="display:block;">A simple website for hierarchal project management</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/arianhosseini/TS_OWASP" target="_blank">
+                        <section>
+                            <div class="section_title">TS_OWASP</div>
+                            <div class="about_section">
+                            <span style="display:block;">a full js developed website showing and giving information about owasp top ten attack</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/Angular-Android-Loader" target="_blank">
+                        <section>
+                            <div class="section_title">Angular-Android-Loader</div>
+                            <div class="about_section">
+                            <span style="display:block;">Android Style Loader Directive</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/CacheSimulator" target="_blank">
+                        <section>
+                            <div class="section_title">CacheSimulator</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple Cache Simulator with QT . CA Course Project </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Makefile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/CPU" target="_blank">
+                        <section>
+                            <div class="section_title">CPU</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple Schematic Processor Designed in Logisim .  </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/DataBaseCourseProject" target="_blank">
+                        <section>
+                            <div class="section_title">DataBaseCourseProject</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/DataSheetScraper" target="_blank">
+                        <section>
+                            <div class="section_title">DataSheetScraper</div>
+                            <div class="about_section">
+                            <span style="display:block;">A Simple Scraper to download DataSheet </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/ExpressMVCTemplate" target="_blank">
+                        <section>
+                            <div class="section_title">ExpressMVCTemplate</div>
+                            <div class="about_section">
+                            <span style="display:block;">Node based web app using ExpressJS , handlebars template engine, and Mongodb</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/FlaskForBeginners-PyCon2017" target="_blank">
+                        <section>
+                            <div class="section_title">FlaskForBeginners-PyCon2017</div>
+                            <div class="about_section">
+                            <span style="display:block;">basic flask tutorial</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/kianenigma.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">kianenigma.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">Personal Website</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/mean-stack-podcast" target="_blank">
+                        <section>
+                            <div class="section_title">mean-stack-podcast</div>
+                            <div class="about_section">
+                            <span style="display:block;">Code Repository for a series of tutorials about MEAN stack</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/MEAN-tutorial" target="_blank">
+                        <section>
+                            <div class="section_title">MEAN-tutorial</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/nerds-finwars" target="_blank">
+                        <section>
+                            <div class="section_title">nerds-finwars</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/Polymer-Android-Loader" target="_blank">
+                        <section>
+                            <div class="section_title">Polymer-Android-Loader</div>
+                            <div class="about_section">
+                            <span style="display:block;">Android Style Loader Element for Polymer</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/RememberME" target="_blank">
+                        <section>
+                            <div class="section_title">RememberME</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple Todo Remember App with NODEjs and Angular </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/kianenigma/TriEscape" target="_blank">
+                        <section>
+                            <div class="section_title">TriEscape</div>
+                            <div class="about_section">
+                            <span style="display:block;">2D Game Project </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Longi94/wdps1706_2" target="_blank">
+                        <section>
+                            <div class="section_title">wdps1706_2</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/shawntabrizi/docsify-codeview" target="_blank">
+                        <section>
+                            <div class="section_title">docsify-codeview</div>
+                            <div class="about_section">
+                            <span style="display:block;">A docsify plugin to add an embedded code editor to your documentation.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
